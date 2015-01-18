@@ -1,0 +1,15 @@
+# Name: Nikolay Goncharenko
+# Email: goncharn@onid.oregonstate.edu
+# Class: CS344-400
+# Assignment: homework#3
+#######################################
+
+1. All the tests in makefile (tests) are succesful
+2. myar -x ar12345.ar and ar xo ar12345.ar extract the same files
+with the same time and permissions.
+If no member is named on the command line when extracting files,
+all files are extracted from the archive.
+3. -d works: tested with multiple files and with one. 
+Archive checked with ar -tv
+4. -A works: determine regular files in the dir and archives them
+Archive checked with ar -tv
