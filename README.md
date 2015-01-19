@@ -1,8 +1,8 @@
-# archiver_app_linux
+Archiver app for Linux
 
-1. To compile the app, write "make all" in command line
+1. To compile the app, type "make all" in command line
 
-2. To test the app, write "make tests" in command line
+2. To test the app, type "make tests" in command line
 
 3. "myar -x ar12345.ar" and Linux's "ar xo ar12345.ar" extract files
 with the same timestamps and permissions.
